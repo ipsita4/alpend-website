@@ -22,9 +22,9 @@ export default function Home() {
       <TrustedExecution />
       <HighPerformanceGateway />
       <EnhancedLiquidity />
-      <Features />
+      {/* <Features />
       <About />
-      <Contact />
+      <Contact /> */}
       <Footer />
     </main>
   );
