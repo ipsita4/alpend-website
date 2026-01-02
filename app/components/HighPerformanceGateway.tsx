@@ -34,7 +34,7 @@ export default function HighPerformanceGateway() {
             </p>
 
             {/* Main Title */}
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-teal-400 mb-8 leading-tight">
+            <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-teal-700 mb-8 leading-tight">
               <span className="block">High Performance</span>
               <span className="block">Gateway</span>
             </h2>
@@ -45,7 +45,7 @@ export default function HighPerformanceGateway() {
               className="inline-flex items-center gap-3 bg-white text-black px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors border border-gray-200 shadow-sm mb-12"
             >
               Contact Us
-              <div className="w-8 h-8 bg-teal-400 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-teal-700 rounded-full flex items-center justify-center">
                 <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -102,30 +102,13 @@ export default function HighPerformanceGateway() {
             </div>
           </div>
 
-          {/* Right Column - Diagonal Stripe Pattern */}
+          {/* Right Column - Image */}
           <div className="relative hidden lg:block h-full min-h-[600px]">
             <div className="absolute inset-0">
-              {/* Diagonal Stripe Pattern - Top Right */}
-              <div 
-                className="absolute top-0 right-0 w-full h-full"
-                style={{
-                  background: `repeating-linear-gradient(
-                    45deg,
-                    #0d9488 0px,
-                    #0d9488 40px,
-                    #f0fdfa 40px,
-                    #f0fdfa 80px
-                  )`,
-                  clipPath: 'polygon(100% 0, 100% 50%, 0 100%, 0 0)'
-                }}
-              />
-              
-              {/* Solid Black - Bottom Left */}
-              <div 
-                className="absolute bottom-0 left-0 w-full h-full bg-black"
-                style={{
-                  clipPath: 'polygon(0 100%, 100% 50%, 100% 100%, 0 100%)'
-                }}
+              <img 
+                src="/high-perf.gif" 
+                alt="High Performance Gateway"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>

@@ -10,10 +10,14 @@ export default function UnitingInnovation() {
   return (
     <section className="bg-white py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Section Title */}
-        <h2 className="text-3xl md:text-4xl font-light text-gray-700 uppercase tracking-wider text-center mb-16">
-          UNITING INNOVATION
-        </h2>
+
+             <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <h3 className="text-2xl md:text-3xl font-light text-gray-400 uppercase tracking-wider text-center animate-fade-in">
+            UNITING INNOVATION
+          </h3>
+        </div>
+      </div>
 
         {/* Top Content Block - Three Columns */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">

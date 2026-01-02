@@ -33,9 +33,9 @@ export default function InstitutionalSection() {
   }, [hasAnimated]);
 
   return (
-    <section ref={sectionRef} className="relative bg-black min-h-screen flex flex-col">
+    <section ref={sectionRef} className="relative min-h-screen flex flex-col" style={{ backgroundImage: 'url(/alpend-enb.gif)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
       {/* Backed By Banner */}
-      <div className="bg-gray-100 py-4 px-4 sm:px-6 lg:px-8">
+      {/* <div className="bg-gray-100 py-4 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-center gap-2 text-gray-600 text-sm">
             <span>Backed By</span>
@@ -44,12 +44,12 @@ export default function InstitutionalSection() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Content Section */}
       <div className="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-7xl mx-auto w-full">
-          <div className="relative bg-teal-100 rounded-3xl p-12 md:p-16 lg:p-20 overflow-hidden">
+          <div className="relative p-12 md:p-16 lg:p-20">
             {/* Animated Wave Pattern Background */}
             <div className="absolute bottom-0 left-0 right-0 h-1/2 opacity-30 overflow-hidden">
               <svg
@@ -112,7 +112,7 @@ export default function InstitutionalSection() {
 
             {/* Main Text Content */}
             <div ref={textRef} className={`relative z-10 ${hasAnimated ? 'opacity-100 animate-fade-in-up' : 'opacity-0'}`}>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-teal-800 leading-tight text-center max-w-5xl mx-auto">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-teal-800 leading-tight text-center max-w-5xl mx-auto">
                 <span className="block">Alpend Enables Institutions To Borrow,</span>
                 <span className="block">Lend, And Deploy Regulated Assets</span>
                 <span className="block">On-Chain With Privacy,</span>
@@ -124,13 +124,7 @@ export default function InstitutionalSection() {
       </div>
 
       {/* Next Section Preview */}
-      <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <h3 className="text-2xl md:text-3xl font-light text-gray-400 uppercase tracking-wider text-center animate-fade-in">
-            UNITING INNOVATION
-          </h3>
-        </div>
-      </div>
+
     </section>
   );
 }

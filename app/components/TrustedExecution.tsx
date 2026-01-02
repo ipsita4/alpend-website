@@ -7,13 +7,13 @@ export default function TrustedExecution() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Column */}
           <div className="space-y-4">
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
+            <h2 className="text-2xl md:text-5xl font-bold text-white leading-tight">
               Trusted Execution
             </h2>
-            <p className="text-2xl md:text-3xl text-gray-400 font-light">
+            <p className="text-2xl md:text-5xl text-gray-400 font-light">
               Secure Markets
             </p>
-            <p className="text-2xl md:text-3xl text-gray-400 font-light">
+            <p className="text-2xl md:text-5xl text-gray-400 font-light">
               Borderless Finance
             </p>
           </div>

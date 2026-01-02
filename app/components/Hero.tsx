@@ -52,39 +52,12 @@ export default function Hero() {
 
           {/* Right Visual Section */}
           <div className="relative h-[600px] lg:h-[700px] rounded-lg overflow-hidden">
-            {/* Background Image - Replace with actual capitol building image from Figma */}
-            <div className="absolute inset-0 bg-gradient-to-br from-sky-200 via-blue-100 to-sky-300">
-              {/* Sky with clouds effect */}
-              <div className="absolute inset-0">
-                <div className="absolute top-10 left-10 w-32 h-20 bg-white/30 rounded-full blur-xl"></div>
-                <div className="absolute top-20 right-20 w-40 h-24 bg-white/25 rounded-full blur-xl"></div>
-                <div className="absolute top-32 left-1/3 w-36 h-22 bg-white/20 rounded-full blur-xl"></div>
-              </div>
-              
-              {/* Capitol Building Silhouette - Replace with actual image */}
-              <div className="absolute bottom-0 left-0 right-0 h-3/4">
-                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-2/3 h-full">
-                  {/* Building base */}
-                  <div className="absolute bottom-0 w-full h-2/3 bg-amber-200/80 rounded-t-3xl">
-                    {/* Columns */}
-                    <div className="absolute bottom-0 left-1/4 w-8 h-3/4 bg-amber-300/90 rounded-t-lg"></div>
-                    <div className="absolute bottom-0 left-2/4 transform -translate-x-1/2 w-8 h-3/4 bg-amber-300/90 rounded-t-lg"></div>
-                    <div className="absolute bottom-0 right-1/4 w-8 h-3/4 bg-amber-300/90 rounded-t-lg"></div>
-                    {/* Dome */}
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-32 bg-amber-300/90 rounded-full -translate-y-1/2"></div>
-                    {/* Flag */}
-                    <div className="absolute top-1/4 left-1/4 w-8 h-12 bg-red-500/60 rounded-sm"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            {/* Gradient Overlays - matching Figma design */}
-            <div className="absolute inset-0 pointer-events-none">
-              <div className="absolute right-0 top-1/4 w-32 h-64 bg-gradient-to-b from-teal-700/40 to-teal-600/20 rounded-lg transform rotate-12"></div>
-              <div className="absolute right-1/4 top-1/3 w-24 h-48 bg-gradient-to-b from-teal-700/30 to-teal-600/15 rounded-lg transform -rotate-6"></div>
-              <div className="absolute right-1/3 bottom-1/4 w-28 h-56 bg-gradient-to-b from-teal-700/35 to-teal-600/18 rounded-lg transform rotate-3"></div>
-              <div className="absolute right-1/6 bottom-1/3 w-20 h-40 bg-gradient-to-b from-teal-700/25 to-teal-600/12 rounded-lg transform -rotate-12"></div>
+            <div className="absolute inset-0">
+              <img 
+                src="/global.png" 
+                alt="Money-Market On Canton"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
